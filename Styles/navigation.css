@@ -1,0 +1,27 @@
+/* The navbar container */
+.navigation {
+    position:absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    list-style: none;
+}
+
+/* Navbar links */
+.navigation a {
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold; /* Deixa as letras grossas */
+    border-radius: 20px; /* Deixa as bordas dos links arredondadas */
+    transition: background-color 0.3s, color 0.3s;
+    margin-right: 15px;
+}
+
+/* Links - change color on hover */
+.navigation a:hover {
+    background-color: #800080; /* Cor roxa */
+    color: white;
+}
