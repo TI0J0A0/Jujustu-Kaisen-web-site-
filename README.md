@@ -26,3 +26,5 @@ Melhorias Contínuas:
 Busco constantemente maneiras de aprimorar este site para oferecer uma experiência mais rica e interessante aos fãs de Jujutsu Kaisen. Se você tem sugestões ou ideias, sinta-se à vontade para compartilhar.
 
 Este projeto é mais do que um website; é uma celebração da comunidade de Jujutsu Kaisen, construída com paixão e dedicada à busca contínua de conhecimento e aprimoramento.
+
+

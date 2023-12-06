@@ -4,54 +4,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="components/images/pe9cnryyuw061.png">
+  <link rel="icon" type="image/x-icon" href="components/images/logo/itadori.png">
   <title>JJK</title>
   <link rel="stylesheet" href="Styles/style.css">
-</head>
-
-<body>
-  <div id="background">
-    <img src="components/images/mv_re_new.jpg" alt="JuJutsu Kaisen Background Image">
-    
-    <div class="video-container">
-      <iframe width="560" height="315" src="https://www.youtube.com/watch?v=PKHQuQF1S8k" frameborder="0" allowfullscreen></iframe>
-  </div>
-  
-
-
-    <div id="app">
-      <header>
-        <img class="icon__jjk" src="components/images/jujutsu_kaisen_hd_png_by_newjer53_dekiqwv-pre.png" alt="JuJutsu Kaisen Icon">
-
-        <ul class="navigation">
-          <li>
-            <a href="#" class="Navigation__link">Home</a>
-          </li>
-          <li>
-            <a href="#" class="Navigation__link">Story</a>
-          </li>
-          <li>
-            <a href="#" class="Navigation__link">Fan Arts</a>
-          </li>
-          <li>
-            <a href="#" class="Navigation__link">Trailers</a>
-          </li>
-        </ul>
-
-        <div class="navigation__social">
-          <!-- Social Icons SVG -->
-          <!-- ... -->
-        </div>
-      </header>
-    </div>
-  </div>
-
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
   <script>
     AOS.init();
   </script>
-    <footer>
-      &copy; 2023 Meu Site Funcional
+</head>
+
+<body>
+
+  <div id="logo">
+    <img src="components/images/logo/jujutsu_kaisen_hd_png_by_newjer53_dekiqwv-pre.png" alt="">
+   </div>
+
+
+  <div id="video">
+    <iframe src="https://www.youtube.com/embed/PKHQuQF1S8k" frameborder="0"  autoplay></iframe>
+  </div>
+  
+
+   <div id="background">
+    <img src="components/images/background/mv_re_new.jpg" alt="">
+  </div>
+
+  <header>
+    <div class="sidebar" id="menu">
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Personagens</a></li>
+        <li><a href="#">Música</a></li>
+        <li><a href="#">Vídeos</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <footer>
+    &copy; 2023 Meu Site Funcional
   </footer>
 </body>
 

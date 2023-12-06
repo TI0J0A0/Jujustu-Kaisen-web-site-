@@ -1,8 +1,24 @@
 @import url('background.css');
 @import url('navigation.css');
+@import url('video.css');
+@import url('logo.css');
+@import url('social.css');
 
-body {
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     height: 100%;
     margin: 0;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: left; /* Corrigido: removi o valor 100% e ajustei a propriedade */
+    padding: 10px; /* Ajustei para um valor positivo, por exemplo, 10px */
+    z-index: 2;
+  }
+  
