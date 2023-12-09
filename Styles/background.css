@@ -4,7 +4,6 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 0;
 }
 
 #background img {
@@ -25,3 +24,10 @@
 }
 
 /* Adicional: Estilo para o conteúdo sobreposto */
+
+/* Adicionando regras de mídia para tornar o código responsivo */
+@media screen and (max-width: 768px) {
+  #background img {
+    object-fit: contain; /* Ajuste conforme necessário para manter a imagem visível */
+  }
+}

@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Adicione ou ajuste estilos de background conforme necessário */
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    /* Adicione ou ajuste estilos de background conforme necessário */
+  }
+  
+  .sidebar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+  }
+  
+  .navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #555;
+    transition: background-color 0.3s;
+  }
+  
+  a:hover {
+    background-color: #777;
+  }
+  
+  .video-mural {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Remova ou ajuste o z-index conforme necessário */
+  }
+  
